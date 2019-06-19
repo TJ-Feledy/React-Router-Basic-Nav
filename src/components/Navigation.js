@@ -1,6 +1,5 @@
 import React from 'react';
-import {Route, Link} from 'react-router-dom';
-import {Home, About, Contact} from '../components';
+import {Link} from 'react-router-dom';
 
 const Navigation = () => {
   return (
@@ -18,10 +17,6 @@ const Navigation = () => {
             <Link to='/contact'>Contact</Link>
           </div>
         </nav>
-
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/contact' component={Contact} />
       </div>
     </div>
   );
