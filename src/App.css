@@ -1,11 +1,28 @@
 .App {
   text-align: center;
+  background:linear-gradient(to bottom right, white, yellow, goldenrod);
 }
 
-.Nav-link {
-  padding: 2rem;
+.navBar {
+  border-bottom: solid 2px;
+  padding-bottom: .5rem;
 }
 
-.nav-item {
-  margin-top: 1rem;
+.navLinks {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.link {
+  background: white;
+  text-shadow: 5px 3px 3px rgba(0, 0, 0,.3);
+  font-weight: bolder;
+  color: rgb(219, 54, 3);
+  border-radius: 5px;
+  border: groove 1px black;
+  padding: .3rem 1rem
+}
+
+.componentDisplay {
+  text-align: center;
 }
